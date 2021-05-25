@@ -1,0 +1,51 @@
+.mainFooter {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #34759c;
+}
+
+#footerLogo {
+    width: 200px;
+    height: inherit;
+    margin-left: 80px;
+}
+
+#footerMainWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footerInfoWrapper {
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footerNavWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#rights {
+    margin-top: 5px;
+    margin-left: -230px;
+}
+
+.mainFooter a {
+    height: inherit;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.mainFooter a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}

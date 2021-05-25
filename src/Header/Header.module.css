@@ -1,0 +1,54 @@
+.mainHeader {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #34759c;
+}
+
+#headerLogo {
+    width: 200px;
+    height: 100px;
+}
+
+.mainNavBar {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#langButtons {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#langFlags {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#langNames {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em;
+}
+
+.langImage {
+    height: 12px;
+}
+
+.mainHeader a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.mainHeader a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.servicesWrapper {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nonFeaturedEls {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.serviceCard {
+    height: 300px;
+    width: 200px;
+}
+
+.serviceImage {
+
+}

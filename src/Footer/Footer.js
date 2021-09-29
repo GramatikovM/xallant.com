@@ -8,12 +8,13 @@ function Footer() {
             <Link to="/home"><img src={logo} alt="xallant logo" id={styles.footerLogo} /></Link>
             <div id={styles.footerMainWrapper}>
                 <div id={styles.footerInfoWrapper}>
-                    <p>Адрес:<br />София, ул.Ст. Стамболийски 5</p>
+                    <p>Адрес: София, ул.Ст. Стамболийски 5</p>
                     <p>Телефон: +359 882210059 </p>
                     <p>Имейл: info@xallant.com</p>
                     <div id={styles.footerNavWrapper}>
-                        <Link to="/projects">Отзиви</Link>
+                        <Link to="/aboutUs">Отзиви</Link>
                         <Link to="/">Защита на лични данни</Link>
+                        <Link to="/">Кариери</Link>
                     </div>
                 </div>
                 <p id={styles.rights}>© 2021 Ксалант. Всички права запазени.</p>

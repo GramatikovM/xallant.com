@@ -11,7 +11,7 @@ function Header() {
       <ul className={styles.mainNavBar}>
         <li><Link to="/home">Начало</Link></li>
         <li><Link to="/services">Услуги</Link></li>
-        <li><Link to="/projects">Проекти</Link></li>
+        <li><Link to="/aboutUs">За Нас</Link></li>
         <li><Link to="/contacts">Контакти</Link></li>
         <ul id={styles.langButtons}>
           <ul id={styles.langFlags}>

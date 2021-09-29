@@ -3,10 +3,9 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import ServicePage from './Services/ServicePage';
-import Projects from './Projects/Projects';
+import AboutUs from './AboutUs/AboutUs';
 import Contacts from './Contacts/Contacts';
 import Error from './Error/Error';
-import HomeImage from './Images/HomeImage.jpg';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
@@ -17,27 +16,26 @@ function App() {
         <Header></Header>
 
         <Switch>
-          <Route exact path="/">
-            <img src={HomeImage} alt="HomeImage" />
+          <Route exact path="/xalllant.com">
             <Home></Home>
           </Route>
-          <Route path="/home">
-            <img src={HomeImage} alt="HomeImage" width="1920px" height="320px" />
+          <Route exact path="/home">
             <Home></Home>
           </Route>
           <Route path="/services">
-            <ServicePage>
-
-            </ServicePage>
+            <ServicePage></ServicePage>
           </Route>
-          <Route path="/projects">
-            <Projects></Projects>
+          <Route path="/aboutUs">
+            <AboutUs></AboutUs>
           </Route>
           <Route path="/contacts">
             <Contacts></Contacts>
           </Route>
           <Route path="*">
             <Error></Error>
+          </Route>
+          <Route path="/">
+            <Home></Home>
           </Route>
         </Switch>
 

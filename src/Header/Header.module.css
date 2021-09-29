@@ -1,4 +1,5 @@
 .mainHeader {
+    /* font-size: 1.05em; */
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -50,5 +51,5 @@
 
 .mainHeader a:hover {
     color: rgba(255, 255, 255, 1);
-    text-decoration: underline;
+    text-decoration:overline;
 }

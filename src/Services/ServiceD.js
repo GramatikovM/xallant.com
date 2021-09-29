@@ -1,11 +1,11 @@
 import styles from './servicePage.module.css';
+import brandAndIdentity from '../Images/Brand and Identity.png';
 
 function ServiceD() {
     return (
-        <div className={styles.serviceCard}>
-            <img src alt="serviceImage"/>
-            <h1>Brand and Identity </h1>
-            <p>Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+        <div className={styles.serviceCard} id={styles.deg135}>
+            <img className={styles.serviceImage} id={styles.brandImg} src={brandAndIdentity} alt="serviceImage"/>
+            <h1 className={styles.serviceName}>Brand and Identity </h1>
         </div>
     )
 }

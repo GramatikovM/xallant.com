@@ -1,23 +1,162 @@
-.servicesWrapper {
-    width: fit-content;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.servicesPageWrapper {
+    padding-bottom: 100px;
 }
 
-.nonFeaturedEls {
-    width: 750px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.servicesContentWrapper {
+    position: relative;
+    width: 520px;
+    height: 520px;
+    padding: 85px;
+    margin: 90px auto;
+    border-radius: 50%;
+    border: 2px solid #008080;
 }
 
 .serviceCard {
-    height: 300px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(0, 128, 128, 0.8);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .serviceImage {
+    height: 80px;
+    width: 80px;
+    margin-top: -30px;
+}
 
+#appsImg {
+    height: 60px;
+    width: 60px;
+}
+
+#brandImg {
+    height: 60px;
+    width: 60px;
+}
+
+.serviceName {
+    margin-top: -35px;
+}
+
+#degTop {
+    transform: translate(0px, -340px);
+    animation: serviceA 80s linear infinite;
+}
+
+#degBot {
+    transform: translate(0px, 340px);
+    animation: serviceH 80s linear infinite;
+}
+
+#deg0 {
+    transform: translate(340px);
+    animation: serviceB 80s linear infinite;
+}
+
+#deg45 {
+    transform: rotate(45deg) translate(340px) rotate(-45deg);
+    animation: serviceC 80s linear infinite;
+}
+
+#deg135 {
+    transform: rotate(135deg) translate(340px) rotate(-135deg);
+    animation: serviceD 80s linear infinite;
+}
+
+#deg180 {
+    transform: translate(-340px);
+    animation: serviceE 80s linear infinite;
+}
+
+#deg225 {
+    transform: rotate(225deg) translate(340px) rotate(-225deg);
+    animation: serviceF 80s linear infinite;
+}
+
+#deg315 {
+    transform: rotate(315deg) translate(340px) rotate(-315deg);
+    animation: serviceG 80s linear infinite;
+}
+
+@keyframes serviceA {
+    from {
+        transform: rotate(0deg) translate(0px, -340px);
+    }
+    to {
+        transform: rotate(360deg) translate(0px, -340px) rotate(-360deg);
+    }
+}
+
+@keyframes serviceB {
+    from {
+        transform: rotate(0deg) translate(340px);
+    }
+    to {
+        transform: rotate(360deg) translate(340px) rotate(-360deg);
+    }
+}
+
+@keyframes serviceC {
+    from {
+        transform: rotate(0deg) translate(240px, 240px);
+    }
+    to {
+        transform: rotate(360deg) translate(240px, 240px) rotate(-360deg);
+    }
+}
+
+@keyframes serviceD {
+    from {
+        transform: rotate(0deg) translate(-240px, 240px);
+    }
+    to {
+        transform: rotate(360deg) translate(-240px, 240px) rotate(-360deg);
+    }
+}
+
+@keyframes serviceE {
+    from {
+        transform: rotate(0deg) translate(-340px);
+    }
+    to {
+        transform: rotate(360deg) translate(-340px) rotate(-360deg);
+    }
+}
+
+@keyframes serviceF {
+    from {
+        transform: rotate(0deg) translate(240px, -240px);
+    }
+    to {
+        transform: rotate(360deg) translate(240px, -240px) rotate(-360deg);
+    }
+}
+
+@keyframes serviceG {
+    from {
+        transform: rotate(0deg) translate(-240px, -240px);
+    }
+    to {
+        transform: rotate(360deg) translate(-240px, -240px) rotate(-360deg);
+    }
+}
+
+@keyframes serviceH {
+    from {
+        transform: rotate(0deg) translate(0px, 340px);
+    }
+    to {
+        transform: rotate(360deg) translate(0px, 340px) rotate(-360deg);
+    }
 }

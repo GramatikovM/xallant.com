@@ -1,0 +1,75 @@
+#pageWrapper {
+    display: flex;
+}
+
+#contactBackground {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    height: 780px;
+    width: 1920px;
+}
+
+#contentWrapper {
+    z-index: 2;
+    position: absolute;
+}
+
+#contactForm {
+    margin-top: 50px;
+    margin-left: 100px;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.labels {
+    margin-bottom: 2px;
+}
+
+.fields {
+    margin-bottom: 10px;
+}
+
+#textArea {
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 0.85em;
+    font-weight: 500;
+    border-style: solid;
+    border-color: rgb(0, 183, 255);
+    border-radius: 5%;
+    letter-spacing: 0.05em;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#addInfo {
+    position: relative;
+    margin-left: 500px;
+    margin-top: 50px;
+    color: white;
+}
+
+.addInfoText {
+    margin-bottom: 20px;
+}
+
+#addInfo3 {
+    margin-top: 50px;
+}
+
+#addInfo4 {
+    margin-top: 50px;
+}
